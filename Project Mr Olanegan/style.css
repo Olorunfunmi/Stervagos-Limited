@@ -1,0 +1,466 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.start {
+  height: 12vh;
+  width: 100%;
+  background-color: rgb(14, 14, 82);
+}
+
+li {
+  color: black;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-inline: 100px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  color: black;
+  transition: 1s;
+}
+
+.one {
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.sone {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.one img {
+  height: auto;
+  width: 430px;
+}
+
+.stwo {
+  width: 550px;
+}
+
+.stwo h2 {
+  color: black;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.stwo p {
+  color: black;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.buttons {
+  background-color: rgb(36, 173, 18);
+  color: black;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 40px;
+  transition: transform 0.4s;
+}
+
+.buttons:hover {
+  background-color: transparent;
+  border: 2px solid rgb(36, 173, 18);
+  cursor: pointer;
+}
+
+.service {
+  background-color: white;
+  width: 100%;
+  padding: 100px 0px;
+}
+
+.title h2 {
+  color: black;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 400px; */
+}
+
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: rgb(14, 14, 82);
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+h5 {
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.pra {
+  color: white;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 20px;
+}
+
+span {
+  color: rgb(14, 14, 82);
+}
+
+.button {
+  background-color: rgb(36, 173, 18);
+  color: black;
+  font-family: "Jost", sans-serif;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 40px;
+  transition: transform 0.4s;
+}
+
+.button:hover {
+  background-color: transparent;
+  border: 2px solid rgb(36, 173, 18);
+  cursor: pointer;
+}
+
+/* ABOUT US PAGE */
+.about-sterv {
+  background-color: antiquewhite;
+}
+.section-1 {
+  background-color: antiquewhite;
+  text-align: left;
+  height: 200px;
+  padding-top: 50px;
+}
+.abt-us {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.services {
+  text-align: center;
+  font-size: 25px;
+  font-display: initial;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.section-2 {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-bottom: 50px;
+  flex-direction: row;
+}
+
+.car,
+.h20,
+.farm {
+  /* border: none;
+  padding: 30px 40px;
+  width: 50%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: start; */
+  height: 365px;
+  width: 335px;
+  background: rgb(14, 14, 82);
+  padding: 60px 20px 35px;
+  border-radius: 20px;
+  margin: 15px;
+  color: aliceblue;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.button {
+  background-color: rgb(36, 173, 18);
+  color: black;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 40px;
+  transition: transform 0.4s;
+}
+.button:hover {
+  background-color: transparent;
+  border: 2px solid rgb(36, 173, 18);
+  cursor: pointer;
+}
+
+.fa-solid {
+  padding-bottom: 15px;
+}
+/* p {
+  color: black;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+} */
+
+footer {
+  text-align: center;
+  font-size: large;
+}
+/* CONTACT PAGE */
+:root {
+  --primary-color: #010712;
+  --secondary-color: #818386;
+  --bg-color: #fcfdfd;
+  --button-color: #3b3636;
+  --h1-color: #3f444c;
+}
+
+/* [data-theme="dark"] {
+  --primary-color: #FCFDFD;
+  --secondary-color: #818386;
+  --bg-color: #010712;
+  --button-color: #818386;
+  --h1-color: #FCFDFD;
+} */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: var(--bg-color);
+}
+
+.left-col {
+  width: 45vw;
+  height: 500px;
+  background-image: url(images/Contact\ us.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-col {
+  /* background: var(--bg-color); */
+  width: 50vw;
+  height: 100vh;
+  padding: 5rem 3.5rem;
+}
+
+h1,
+label,
+.click {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  color: var(--h1-color);
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 300;
+}
+
+label {
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  font-size: 0.625rem;
+}
+
+form {
+  width: 31.25rem;
+  position: relative;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+input,
+textarea,
+label {
+  width: 40vw;
+  display: block;
+}
+
+p,
+placeholder,
+input,
+textarea {
+  font-family: "Helvetica Neue", sans-serif;
+  padding-bottom: 15px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--primary-color);
+}
+
+input,
+textarea {
+  color: var(--primary-color);
+  font-weight: 500;
+  background: var(--bg-color);
+  border: none;
+  border-bottom: 1px solid var(--secondary-color);
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.click {
+  text-transform: uppercase;
+  font-weight: 300;
+  background: var(--button-color);
+  color: var(--bg-color);
+  width: 10rem;
+  height: 2.25rem;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+input:hover,
+textarea:hover,
+.click:hover {
+  opacity: 0.5;
+}
+
+.click:active {
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+p {
+  font-size: 0.7rem;
+}
+input,
+textarea,
+.click {
+  font-size: 0.65rem;
+}
+
+.click {
+  width: 7rem;
+}
+
+/* SERVICE SECTION */
+
+.served {
+  background-color: antiquewhite;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+.begins {
+  color: black;
+  font-size: 35px;
+  width: 600px;
+  margin: 30px auto;
+  text-align: center;
+}
+.container {
+  width: 97%;
+  padding: 50px 0px;
+}
+.serv {
+  width: 1000px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.img-serv {
+  height: 408px;
+  width: 612px;
+  padding-right: 20px;
+  margin-left: 0;
+  border-radius: 5px;
+}
+.content {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.container p li h4 {
+  color: black;
+  letter-spacing: 0px;
+  /* line-height: px; */
+  font-size: 14px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.container h5 {
+  color: black;
+  font-size: medium;
+  /* margin-bottom: 15px; */
+}
+/* .get {
+  background-color: rgb(36, 173, 18);
+  color: black;
+  text-decoration: none;
+  border: 1px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 40px;
+  transition: transform 0.4s;
+} */
